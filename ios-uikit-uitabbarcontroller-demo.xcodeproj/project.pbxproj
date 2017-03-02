@@ -13,6 +13,7 @@
 		96C98CF61E66514300C4E4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C98CF51E66514300C4E4A1 /* Assets.xcassets */; };
 		96C98CF91E66514300C4E4A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C98CF71E66514300C4E4A1 /* LaunchScreen.storyboard */; };
 		96C98D041E66514300C4E4A1 /* ios_uikit_uitabbarcontroller_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C98D031E66514300C4E4A1 /* ios_uikit_uitabbarcontroller_demoTests.swift */; };
+		96C98D131E66869A00C4E4A1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C98D121E66869A00C4E4A1 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		96C98CFF1E66514300C4E4A1 /* ios-uikit-uitabbarcontroller-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-uikit-uitabbarcontroller-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C98D031E66514300C4E4A1 /* ios_uikit_uitabbarcontroller_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_uikit_uitabbarcontroller_demoTests.swift; sourceTree = "<group>"; };
 		96C98D051E66514300C4E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C98D121E66869A00C4E4A1 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				96C98CEE1E66514300C4E4A1 /* AppDelegate.swift */,
 				96C98CF01E66514300C4E4A1 /* ViewController.swift */,
+				96C98D121E66869A00C4E4A1 /* SecondViewController.swift */,
 				96C98CF21E66514300C4E4A1 /* Main.storyboard */,
 				96C98CF51E66514300C4E4A1 /* Assets.xcassets */,
 				96C98CF71E66514300C4E4A1 /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C98D131E66869A00C4E4A1 /* SecondViewController.swift in Sources */,
 				96C98CF11E66514300C4E4A1 /* ViewController.swift in Sources */,
 				96C98CEF1E66514300C4E4A1 /* AppDelegate.swift in Sources */,
 			);
@@ -343,6 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-uikit-uitabbarcontroller-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-uitabbarcontroller-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +361,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-uikit-uitabbarcontroller-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-uitabbarcontroller-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
